@@ -9,7 +9,7 @@ public record Carrito(
         Double precioFinal
 ) {
     public Carrito withId(Long nuevoId) {
-        return new Carrito (nuevoId,idArticulo, descripcion, numeroUnidades, precioFinal);
+        return new Carrito(nuevoId, idArticulo, descripcion, numeroUnidades, precioFinal);
     }
 
 }
